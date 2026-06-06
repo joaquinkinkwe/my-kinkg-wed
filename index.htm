@@ -1,0 +1,358 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Dulce Capricho | Pastelería Artesanal</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#fffaf5;
+color:#333;
+}
+
+nav{
+position:fixed;
+top:0;
+width:100%;
+background:white;
+padding:15px 50px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+box-shadow:0 2px 15px rgba(0,0,0,.1);
+z-index:1000;
+}
+
+.logo{
+font-size:30px;
+font-weight:700;
+color:#c98c4f;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:25px;
+}
+
+nav ul li a{
+text-decoration:none;
+color:#333;
+font-weight:600;
+}
+
+header{
+height:100vh;
+background:
+linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+url('https://images.unsplash.com/photo-1578985545062-69928b1d9587');
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+}
+
+.hero h1{
+font-size:70px;
+}
+
+.hero p{
+font-size:24px;
+margin:20px 0;
+}
+
+.boton{
+background:#c98c4f;
+padding:15px 35px;
+border-radius:40px;
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+section{
+padding:90px 10%;
+}
+
+.titulo{
+text-align:center;
+font-size:45px;
+color:#c98c4f;
+margin-bottom:50px;
+}
+
+.menu{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+text-align:center;
+}
+
+.card h3{
+color:#c98c4f;
+margin-bottom:10px;
+}
+
+.galeria{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+}
+
+.galeria img{
+width:100%;
+height:300px;
+object-fit:cover;
+border-radius:20px;
+}
+
+.contacto{
+background:#f8ede3;
+text-align:center;
+}
+
+.contacto p{
+font-size:20px;
+margin:15px 0;
+}
+
+.redes{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+margin-top:30px;
+}
+
+.redes a{
+padding:15px 30px;
+border-radius:50px;
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+.whatsapp{
+background:#25D366;
+}
+
+.instagram{
+background:linear-gradient(
+45deg,
+#f09433,
+#e6683c,
+#dc2743,
+#cc2366,
+#bc1888
+);
+}
+
+.facebook{
+background:#1877F2;
+}
+
+footer{
+background:#333;
+color:white;
+padding:30px;
+text-align:center;
+}
+
+.btn-whatsapp{
+position:fixed;
+bottom:25px;
+right:25px;
+width:70px;
+height:70px;
+background:#25D366;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:35px;
+text-decoration:none;
+color:white;
+box-shadow:0 5px 15px rgba(0,0,0,.3);
+z-index:999;
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+<div class="logo">Dulce Capricho</div>
+
+<ul>
+<li><a href="#inicio">Inicio</a></li>
+<li><a href="#menu">Menú</a></li>
+<li><a href="#galeria">Galería</a></li>
+<li><a href="#contacto">Contacto</a></li>
+</ul>
+</nav>
+
+<header id="inicio">
+
+<div class="hero">
+
+<h1>Dulce Capricho</h1>
+
+<p>
+🎂 Donde cada bocado cuenta una historia dulce
+</p>
+
+<p>
+✨ El sabor que enamora, la calidad que sorprende ✨
+</p>
+
+<a href="#menu" class="boton">
+Ver Menú
+</a>
+
+</div>
+
+</header>
+
+<section id="menu">
+
+<h2 class="titulo">Nuestro Menú</h2>
+
+<div class="menu">
+
+<div class="card">
+<h3>🍪 Alfajores de Maicena</h3>
+<p>Suaves, rellenos y artesanales.</p>
+</div>
+
+<div class="card">
+<h3>🍰 Budines Caseros</h3>
+<p>Esponjosos y deliciosos.</p>
+</div>
+
+<div class="card">
+<h3>🍞 Pan Relleno</h3>
+<p>Ideal para compartir.</p>
+</div>
+
+<div class="card">
+<h3>🧀 Sopa Paraguaya</h3>
+<p>Tradición y sabor auténtico.</p>
+</div>
+
+<div class="card">
+<h3>🎂 Tortas Personalizadas</h3>
+<p>Cumpleaños, eventos y agasajos.</p>
+</div>
+
+<div class="card">
+<h3>☕ Desayunos y Meriendas</h3>
+<p>El mejor comienzo para tu día.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="galeria">
+
+<h2 class="titulo">Nuestras Delicias</h2>
+
+<div class="galeria">
+
+<img src="foto1.jpg" alt="Torta">
+
+<img src="foto2.jpg" alt="Budín">
+
+<img src="foto3.jpg" alt="Alfajores">
+
+</div>
+
+</section>
+
+<section id="contacto" class="contacto">
+
+<h2 class="titulo">Lo Más Rico Lo Encontrás Acá ❤️</h2>
+
+<p>
+📍 Calle 131 - Berazategui
+</p>
+
+<p>
+📞 11 5057-5058
+</p>
+
+<p>
+🍰 Pastelería Artesanal • Tortas • Alfajores • Budines • Eventos
+</p>
+
+<div class="redes">
+
+<a class="whatsapp"
+href="https://wa.me/541150575058"
+target="_blank">
+📱 WhatsApp
+</a>
+
+<a class="instagram"
+href="https://instagram.com/dulcesscaprichoss"
+target="_blank">
+📸 Instagram
+</a>
+
+<a class="facebook"
+href="#"
+target="_blank">
+👍 Facebook
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+DULCE CAPRICHO © 2026
+</p>
+
+<p>
+"Hecho con amor, decorado con pasión."
+</p>
+
+</footer>
+
+<a href="https://wa.me/541150575058"
+class="btn-whatsapp"
+target="_blank">
+💬dy>
+
+</a>
+
+</bo</html>
+
+
